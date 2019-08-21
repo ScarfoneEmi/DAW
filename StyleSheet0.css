@@ -1,0 +1,33 @@
+#nav{
+background-color:#E84F0C;
+}
+#font{
+font-size:2em;
+
+}
+#logotipo{
+  width:2em;
+
+}
+.navbar-brand{
+  font-family:Orator Std;
+  font-style:italic;
+  color:#0a2fa1;
+  font-weight: 900;
+}
+.azul{
+  font-family:Orator Std;
+  font-style:italic;
+  color:#0a2fa1;
+  font-weight: 900;
+}
+.text{
+  font-family:Orator Std;
+  font-style:italic;
+  color:#0a2fa1;
+  font-weight: 900;
+}
+.imgs{
+width:30em;
+
+}
