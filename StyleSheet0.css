@@ -1,3 +1,6 @@
+body{
+  background-color: #91917D;
+}
 #nav{
 background-color:#E84F0C;
 }
@@ -9,12 +12,17 @@ font-size:2em;
   width:2em;
 
 }
+#icone{
+  display:none;
+
+}
 .navbar-brand{
   font-family:Orator Std;
   font-style:italic;
   color:#0a2fa1;
   font-weight: 900;
 }
+
 .azul{
   font-family:Orator Std;
   font-style:italic;
@@ -27,23 +35,25 @@ font-size:2em;
   color:#0a2fa1;
   font-weight: 900;
 }
-.imagem{
-  width:30em;
-  float: left;
 
+
+.imgs{
+width:30em;
+margin-top: 2em;
 }
 .lola{
   float: right;
   background-color: red;
+  margin-top: 4em;
 }
-#icone {
-  display:none;
-}
-
-@media screen and (max-width:900px)
-   {
+@media screen and (max-width:1000px) {
   #icone{
     display:inherit;
-  }
 
+  }
+  .sumir{
+   opacity: 0;
+   margin-left: -5000em;
+   display: none;
+  }
 }
