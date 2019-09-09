@@ -27,7 +27,23 @@ font-size:2em;
   color:#0a2fa1;
   font-weight: 900;
 }
-.imgs{
-width:30em;
+.imagem{
+  width:30em;
+  float: left;
+
+}
+.lola{
+  float: right;
+  background-color: red;
+}
+#icone {
+  display:none;
+}
+
+@media screen and (max-width:900px)
+   {
+  #icone{
+    display:inherit;
+  }
 
 }
