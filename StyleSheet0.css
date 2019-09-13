@@ -1,8 +1,8 @@
 body{
-  background-color: #91917D;
+  background-color: rgba(0,0,0,0.2)	;
 }
 #nav{
-background-color:#E84F0C;
+background-color:#e9a644;
 }
 #font{
 font-size:2em;
@@ -34,17 +34,69 @@ font-size:2em;
   font-style:italic;
   color:#0a2fa1;
   font-weight: 900;
+
 }
-
-
+.max{
+  height: 25em;
+  background-size: 100%;
+}
 .imgs{
-width:30em;
+  width: 30em;
 margin-top: 2em;
 }
 .lola{
   float: right;
-  background-color: red;
   margin-top: 4em;
+}
+.text0{
+  font-family: Tw Cen MT;
+  font-size: 1.70em;
+  text-align: left;
+  margin-top: 5em;
+
+}
+
+.imgs1{
+width: 30em;
+margin-top:15em;
+margin-left: -26em;
+float: left;
+}
+.lola1{
+  float: right;
+  margin-top: 20em;
+  margin-left: -15em;
+  margin-right: 30em;
+}
+.text1{
+  font-family: Tw Cen MT;
+  font-size: 1.5em;
+  margin-left:22em;
+  margin-top: -26em;
+text-align: left;
+
+}
+
+.img2{
+  width: 30em;
+margin-top: -5em;
+margin-left: 3em;
+
+
+}
+
+.lola2{
+  float: right;
+  margin-top: 28em;
+  margin-left: -15em;
+  margin-right: 30em;
+}
+.text2{
+  font-family: Tw Cen MT;
+  font-size: 1.5em;
+margin-top: -18em;
+  margin-left: 5em;
+
 }
 @media screen and (max-width:1000px) {
   #icone{
@@ -55,5 +107,30 @@ margin-top: 2em;
    opacity: 0;
    margin-left: -5000em;
    display: none;
+
+ }
+ .imgs{
+    width: 50em;
+    margin-top: 2em;
   }
+   .text0{
+     font-size: 1.5em;
+     margin-top: -1em;
+   }
+   .text1{
+     font-size: 1.3em;
+     margin-right: 5em;
+       margin-left: 12em;
+       margin-top: -26em;
+
+
+    }
+    .imgs1{
+      margin-left: -23em;
+    }
+    .text2{
+      font-size: 1.3em;
+      margin-left: 10em;
+      margin-top: -16em;
+    }
 }
